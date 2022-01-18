@@ -4,7 +4,7 @@ This project automates a trading account creation in ii website. The script open
 
 Have used the concept of inheritance , classes, object and methods , variables in creation of this script.
 
-The main class shows the flow of journey. In TradingAccountPage.class the elements in the page are identified using the selenium locators and all the possible actions in the page are capture in methods. Commonly used actions like opening a webdriver or wait are captured as methods in Helper.class. The TradingAccountPage is linked to Main.class by creating an object of TradingAccountPage. The TradingAccountPage inherits the Helper class. 
+The main class shows the flow of journey. In TradingAccountPage.class the elements in the page are identified using the selenium locators and all the possible actions in the page are captured in methods. Commonly used actions like opening a webdriver, wait are captured as methods in Helper class. The TradingAccountPage is linked to Main class by creating an object of TradingAccountPage. The TradingAccountPage inherits the Helper class. 
 
 Along with java, selenium webdriver 4.1.0 is used to replicate the browser behaviour. The script was created using Intellij IDE
 
